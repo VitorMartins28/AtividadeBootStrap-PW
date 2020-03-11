@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
+body {
+    background: url(https://www.10wallpaper.com/wallpaper/1366x768/1107/HOMEFRONT_FPS_game_HD_wallpaper_01_1366x768.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.tudo {
+    background: rgba(153, 153, 153, 0.801);
+    padding: 10px;
+}
+
 .bg-title {
     background-position-x: center;
     background-position-y: center;
@@ -17,7 +29,7 @@
 #myFooter .footer-copyright {
     margin-bottom: 35px;
     text-align: center;
-    color: #777;
+    color: rgb(255, 255, 255);
 }
 
 #myFooter ul {
@@ -27,7 +39,7 @@
 }
 
 #myFooter a {
-    color: #282b2d;
+    color: #ffffff;
     font-size: 18px;
 }
 
@@ -112,4 +124,18 @@
     font-weight: 700;
     font-size: 22px;
     color: #ffffff !important;
+}
+
+.titulo1 {
+    background: rgba(124, 43, 43, 0.801);
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.titulo2 {
+    background: rgba(39, 38, 38, 0.801);
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
 }

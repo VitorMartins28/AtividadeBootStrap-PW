@@ -5,42 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Projeto Bootstrap</title>
+    <title>GammesTech</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="libs/MaterialDesign/MaterialDesign-Webfont-master/css/materialdesignicons.css">
+    <link rel="shortcut icon" href="img/logo.png" />
 
 </head>
 
 <body>
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-        <a class="navbar-brand">Brand</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <a class="navbar-brand" href="#">
+            <img src="img/banner.png" width="180" height="50" class="d-inline-block align-top" alt="">
+        </a>
         <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div id="my-nav" class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Item 1 <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Jogos<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Tutoriais</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Dicas</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="container mt-2 ">
+
+    <div class="container mt-2 tudo">
         <div class="row">
-            <div class="col-md-6 col-12">
-                <h3>Blog</h3>
-                <H4 class="mt-2">Jogos da galera</H4>
-                <p>Fortinine</p>
+            <div class="col-md-8 col-12">
+
+                <H4 class=" titulo2 mt-2">Jogos da galera</H4>
+                <h5>Fortinine</h5>
+                <img src="https://cdn2.unrealengine.com/Fortnite%2Fblog%2Fsave-the-worlds-newest-update-2-26%2F10StW_Evergreens_White_NewsHeader-1920x1080-eb09fbf009c95bfb2bd97eebc8744795a40c5f0a.jpg" class="img-fluid" alt="">
+                <p class="mt-2">Fortnite é um jogo eletrônico multijogador online revelado originalmente em 2012, desenvolvido pela Epic Games e lançado como diferentes modos de jogo que compartilham a mesma jogabilidade e motor gráfico de jogo.</p>
+                <h5 class="mt-2">Free Fire</h5>
+                <img src="https://img.ibxk.com.br/2019/08/05/05163458021048.jpg?w=1120&h=420&mode=crop&scale=both" class="img-fluid" alt="">
+                <p class="mt-2">Garena Free Fire é um jogo eletrônico mobile de ação-aventura do gênero battle royale, desenvolvido pela 111dots Studio e publicado pela Garena. O jogo obteve um beta aberto em novembro de 2017 e foi lançado oficialmente para Android e
+                    iOS em 4 de dezembro de 2017.</p>
             </div>
-            <div class="col-md-4 col-12">
-                <h3>Destaques</h3>
-                <p></p>
+            <div class="col-md-4 col-12 mt-2">
+                <h3 class="titulo1">Destaques</h3>
+                <H4 class="mt-4">Noticias:</H4>
 
                 <div class="position-relative">
                     <img class="w-100" src="http://blog.nuuvem.com/wp-content/uploads/2019/10/121129300420021-980x400.jpg" alt="">
@@ -71,18 +87,30 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 col-6">
+            <div class="col-md-8 col-12">
+                <h3 class=" titulo1 text-left ">Sugestão do dia:</h3>
+                <img src="https://www.comboinfinito.com.br/principal/wp-content/uploads/2017/07/crash-bandicoot-n-sane-trilogy-img-04.jpg" class="img-fluid" alt="">
+                <h4 class="text-left mt-2">Crash Bandicoot N.Sane Trilogy </h4>
+                <p class="mt-2">Crash Bandicoot N.Sane Trilogy reúne três títulos clássicos das aventuras de Crash em um só volume. E remasterizados! Fãs saudosos vão curtir, e muito, esse jogo, enquanto os novos players vão poder experimentar uma boa dose de diversão
+                    e ação. Crash Bandicoot conquistou lugar da nossa lista de melhores jogos de ação e aventura por ser um título dinâmico, cativante, engraçado e, claro, muito divertido.</p>
 
+                <a class="btn btn-success" href="https://www.americanas.com.br/produto/132247822/game-crash-bandicoot-n-sane-trilogy-ps4?opn=YSMESP&sellerid=02&epar=bp_pl_00_go_gm_jogos_todas_geral_gmv&WT.srch=1&acc=e789ea56094489dffd798f86ff51c7a9&i=5612cbe46ed24cafb5cae011&o=592d8626eec3dfb1f8067b85&gclid=EAIaIQobChMI3dWP_cuT6AIVCxgMCh2t6gd6EAkYASABEgKcb_D_BwE"
+                    role="button">Comprar</a>
+                <a class="btn btn-info" href="https://store.steampowered.com/app/731490/Crash_Bandicoot_N_Sane_Trilogy/ " role="button">Mais Informações</a>
             </div>
-            <div class="col-md-4 col-6">
+            <div class="col-md-4 col-12 mt-2">
                 <form action="">
                     <div class="form-group">
+                        <h3 class="text-left">Contato:</h3>
                         <label for="my-input">Nome</label>
                         <input id="my-input" class="form-control" type="text" name="">
-                        <label for="cpf">CPF</label>
+                        <label for="Email">Email</label>
                         <input id="my-input" class="form-control" type="text" name="">
-                        <label for="my-input">Telefone</label>
-                        <input id="telefone" class="form-control" type="tel" name="">
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Sua duvida ou sugestão:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block">Enviar</button>
                     </div>
                 </form>
             </div>
@@ -90,15 +118,15 @@
 
     </div>
     </div>
+
     <footer id="myFooter">
         <div class="container">
             <ul>
-                <li><a href="#">Informações da Empresa</a></li>
+                <li><a href="#">Informações da GammesTech</a></li>
                 <li><a href="#">Contato</a></li>
-                <li><a href="#">Blog</a></li>
                 <li><a href="#">Cursos</a></li>
             </ul>
-            <p class="footer-copyright">© 2019 Copyright - Programador Viking</p>
+            <p class="footer-copyright">© 2020 Copyright - GammesTech</p>
         </div>
         <div class="footer-social">
             <a href="#" class="social-icons"><i class="mdi mdi-facebook"></i></a>
@@ -106,6 +134,7 @@
             <a href="#" class="social-icons"><i class="mdi mdi-twitter"></i></a>
         </div>
     </footer>
+
 
     <!-- <p> <i class="mdi mdi-google-downasaur mdi-48px"></i></p> -->
 
