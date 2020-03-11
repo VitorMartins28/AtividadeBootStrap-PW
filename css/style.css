@@ -9,6 +9,7 @@ body {
 .tudo {
     background: rgba(153, 153, 153, 0.801);
     padding: 10px;
+    border-radius: 6px;
 }
 
 .bg-title {
